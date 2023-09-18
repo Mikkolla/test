@@ -7,34 +7,201 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Gulp Starter Project my LemonSchool</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Unica+One&family=Vollkorn:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="./css/main.css" />
+	
 </head>
 
 <body>
-	<header class="header">
-	<div class="header__logo">Start</div>
+	<header class="header ">
+	<a class="header__logo" href="/">
+		IWMYWF
+
+
+
+	</a>
 	<div class="header__nav">
 		<div class="header__backdrop" id="headerBackdrop" onclick="navToggle()"></div>
 		<ul class="header__ul" id="headerUl">
-			<li class="header__li"><a class="header__a" href="/">Link 1</a></li>
-			<li class="header__li"><a class="header__a" href="/">Link 2</a></li>
-			<li class="header__li"><a class="header__a" href="/">Link 3</a></li>
-			<li class="header__li"><a class="header__a" href="/">Link 4</a></li>
+			<li class="header__li"><a class="header__a" href="/">Home</a></li>
+			<li class="header__li"><a class="header__a _active" href="/">About Me</a></li>
+			<li class="header__li"><a class="header__a" href="/">Works</a></li>
+			<li class="header__li"><a class="header__a" href="/">Blog</a></li>
+
+			
+	
+
+			<a class="header__btn" href="/">
+				<div class="header__link">Get in Touch</div>
+			</a>
 			<span class="material-icons icon-close" onclick="navToggle()">close</span>
 		</ul>
+
+		
 		<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
 	</div>
 </header>
 
-	<main class="main">
-		<div class="template">
-			<div>Website</div>
-			<img src="./img/web.jpg" alt="">
-		</div>
-	</main>
+	<section class="profile container">
+    <div class="profile__box">
+      <h1 class="profile__head">Create your website in <span class="profile__span">less than 12days</span> </h1>
+      <div class="profile__desc">
+        Hey, I’m Mark Essein. A fullstack web developer with 7 years experience
+        building successful websites and applications. I can build a high
+        converting website for you as quick as possible!
+      </div>
+  
+      <a class="profile__btn" href="/">
+        <div class="profile__link">Get in Touch</div>
+      </a>
+    </div>
+  
+
+
+    
+    <div class="profile__img">
+      <img src="./img/man.png" alt="man" />
+    </div>
+  </section>
+  
+	<section class="function">
+  
+    
+    
+
+    <div class="function__text container">
+        <div class="imgafsas container">
+            <img   src="./img/group.png" alt="group" />
+        </div>
+        <div class="function__wow">
+            <div class="function__title">About Me</div>
+      <div class="function__pagem">
+        My passion for building websites started since 2013 and since then i
+        have helped companies around the world build amazing websites and
+        products that create real value for the business and users.
+      </div>
+      <div class="function__pagei">
+        I enjoy solving problems with clean scalable solutions and I also have a
+        genuine passion for inspiring design.
+      </div>
+      <div class="function__pagea">
+        I am a fullstack developer focusing on core frontend and backend
+        technologies which include HTML, CSS, Javascript, React and other core
+        languages
+      </div>
+    </div>
+
+        </div>
+      
+
+
+
+  
+    
+  
+  
+</section>
+
+	<section class="icon ">
+    <div class="icon__background container">
+        <div class="icon__title">Companies I have worked for</div>
+
+  <div class="icon__features">
+    <a href="" class="icon__apps">
+      <img src="./img/google.png" alt="google" />
+    </a>
+
+    <a href="" class="icon__apps">
+      <img src="./img/bolt.png" alt="bolt" />
+    </a>
+
+    <a href="" class="icon__apps">
+      <img src="./img/amazon.png" alt="amazon" />
+    </a>
+
+    
+    <a href="" class="icon__apps">
+      <img src="./img/paypal.png" alt="paypal" />
+    </a>
+
+    <a href="" class="icon__apps">
+      <img src="./img/netflix.png" alt="netflix" />
+    </a>
+  </div>
+
+
+    </div>
+  
+</section>
+
+	<section class="background">
+
+    <div class="photo container">
+        <div class="photo__title-main">
+            My Recent Works
+        </div>
+
+        <div class="photo__flex1">
+            <div class="photo__page1">
+                <div class="photo__title">Ecommerce Landing page</div>
+                <img  class="photo__img" src="./img/logo/beard.png" alt="beard">
+                <div class="photo__text-img1">11 days</div>
+            </div>
+
+            <div class="photo__page2">
+                <div class="photo__title">Basketball Studio</div>
+                <img class="photo__img" src="./img/logo/ball.png" alt="ball">
+                <div class="photo__text-img2">9 days</div>
+            </div>
+
+            <div class="photo__page2">
+                <div class="photo__title">Perfume Company site</div>
+                <img class="photo__img" src="./img/logo/dior.png" alt="iphone">
+                <div class="photo__text-img3">10 days</div>
+            </div>
+
+        </div>
+
+        <div class="photo__flex1">
+            <div class="photo__page1">
+                <div class="photo__title">Health care site</div>
+                <img class="photo__img" src="./img/logo/health.png" alt="Health" >
+                <div class="photo__text-img4">11 days</div>
+            </div>
+
+            <div class="photo__page2">
+                <div class="photo__title">Real Estate</div>
+                <img class="photo__img" src="./img/logo/home.png" alt="home">
+                
+               
+                    <div class="photo__text-img5">7 days</div>
+                
+                
+            </div>
+
+            <div class="photo__page2">
+                <div class="photo__title">Bank Wallet</div>
+                <img class="photo__img" src="./img/logo/apple.png" alt="apple">
+                
+                    <div class="photo__text-img6">5 days</div>
+                </div>
+ 
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+ 
+</section>
+	
+	
+	
 	<footer class="footer">
 	<div>Footer</div>
 </footer>
