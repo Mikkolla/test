@@ -7,20 +7,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Gulp Starter Project my LemonSchool</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Unica+One&family=Vollkorn:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="./css/main.css" />
+	
 </head>
 
 <body>
 	@@include('blocks/header.html')
-	<main class="main">
-		<div class="template">
-			<div>Website</div>
-			<img src="./img/web.jpg" alt="">
-		</div>
-	</main>
+	@@include('components/section/section-main.html')
+	@@include('components/section/section-function.html')
+	@@include('components/section/section-icon.html')
+	@@include('components/section/section-photo.html')
+	
+	
+	
 	@@include('blocks/footer.html')
 	<script src="./js/index.bundle.js"></script>
 	<script>
